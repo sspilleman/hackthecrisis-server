@@ -5,4 +5,4 @@ COPY package.json ./
 RUN npm install
 COPY . .
 USER node
-CMD [ "npm", "run", "client" ]
+CMD [ "npm", "run", "server" ]
