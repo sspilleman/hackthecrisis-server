@@ -1,4 +1,6 @@
 export const config = {
+    database: "/db/hackthecrisis.sqlite",
+    // database: "hackthecrisis.sqlite",
     port: 2222,
     bucket: "schooling",
     s3: {

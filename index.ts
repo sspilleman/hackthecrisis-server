@@ -4,7 +4,7 @@ import { configureExpress, configureRoutes } from "./server/express";
 import { configureTypeorm } from "./server/lib/typeorm"
 import {config} from "./config";
 
-console.log(process.env);
+// console.log(process.env);
 
 async function main() {
     // ---------------------------------------------------------------------------------------

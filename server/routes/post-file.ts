@@ -7,6 +7,7 @@ import { config } from "../../config";
 const minioClient = new minio.Client(config.s3);
 
 export async function postFile(req: Request, res: Response, next: NextFunction) {
+    console.log("headers", req.headers);
     const busboy = new Busboy({ headers: req.headers });
     busboy.on('file', (fieldname, stream, filename, encoding, mimetype) => {
         req.logger.info({ fieldname, filename, encoding, mimetype }, "receiving");
