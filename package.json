@@ -30,7 +30,6 @@
         "uuid": "^7.0.3"
     },
     "devDependencies": {
-        "@types/axios": "^0.14.0",
         "@types/body-parser": "^1.19.0",
         "@types/bunyan": "^1.8.6",
         "@types/busboy": "^0.2.3",

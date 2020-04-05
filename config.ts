@@ -1,5 +1,5 @@
 export const config = {
-    port: 2000,
+    port: 2222,
     bucket: "schooling",
     s3: {
         endPoint: 's3.spilleman.nl',
