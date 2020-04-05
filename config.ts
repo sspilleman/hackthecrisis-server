@@ -5,7 +5,7 @@ export const config = {
         endPoint: 's3.spilleman.nl',
         port: 443,
         useSSL: true,
-        accessKey: '2crK*3s9Y4H^Jmz7j3%!n^@Y6mrX',
-        secretKey: 'QWVzJ8&#3S684dqSfAi9&8k$6E!L'
+        accessKey: process.env['MINIO_ACCESS_KEY'],
+        secretKey: process.env['MINIO_SECRET_KEY'],
     }
 }
